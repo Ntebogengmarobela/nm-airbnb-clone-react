@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ntebogeng Marobela",
+      "email": "officialntebo@gmail.com",
+      "phone": "1-770-736-8031"
+    },
+    {
+      "id": 2,
+      "name": "Champagne Mami",
+      "email": "champagnemami@gmail.com",
+      "phone": "010-692-736-669"
+    },
+    {
+      "email": "bryson@gmail.com",
+      "password": "$2a$10$hzt9wiOV6gLudoXWabaIj.8sRpcPM85TY/YkbjZSlV5lgdC1utfKu",
+      "id": 3
+    },
+    {
+      "email": "lebone@gmail.com",
+      "password": "$2a$10$yC5YKomphZ/Z5W7Y1RYowOsXcjG6kWKPXb0I/SNxTRV56laBe2hVO",
+      "id": 4
+    },
+    {
+      "email": "amahle@gmail.com",
+      "password": "$2a$10$rexQGkHg6DhGPbHCbckxHuVhOWw1aGUzzXxPfbzYRUohizL8/RPoa",
+      "id": 5
+    },
+    {
+      "email": "spuramaluda@gmail.com",
+      "password": "$2a$10$x3hThZxJqxIRZWdsmjJuB.aV3ZcKPwNu9Qnx1V83THWoDLL.EF5gy",
+      "id": 6
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2025-10-01",
+      "endDate": "2025-10-02",
+      "userId": 1
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "React Street",
+      "city": "Dev",
+      "street": "Fullstack",
+      "price": 2000,
+      "email": "officialntebo@gmail.com",
+      "userId": 1
+    }
+  ]
+}

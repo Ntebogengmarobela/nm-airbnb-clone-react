@@ -1,0 +1,37 @@
+# GET ALL USERS
+GET http://localhost:5000/users 
+###
+
+# GET A SINGLE USER
+GET http://localhost:5000/users/2
+###
+
+# REGISTER A USER
+POST  http://localhost:5000/login
+content-type: application/json
+
+{
+  "email": "spuramaluda@gmail.com",
+  "password": "nextPassw0rd"
+}
+###
+
+# GET ALL BOOKINGS
+http://localhost:5000/bookings
+
+###
+# GET ALL BOOKINGS FOR A USER
+http://localhost:5000/bookings?userId=1
+
+###
+http://localhost:5000/listings
+
+###
+# POST http://localhost:5000/posts 
+# content-type: application/json
+
+#  {
+
+#     "title": "nm-airbnb-clone-react",
+#     "author": "ntebogeng marobela"
+#   }
