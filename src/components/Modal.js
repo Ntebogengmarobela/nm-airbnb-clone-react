@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { openModal, closeModal } from "../actions/modalActions";
+import { closeModal } from "../actions/modalActions";
 import "./Modal.css";
 
 const Modal = () => {

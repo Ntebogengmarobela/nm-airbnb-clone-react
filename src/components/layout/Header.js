@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import LanguageIcon from "@mui/icons-material/Language";
 import MenuIcon from "@mui/icons-material/Menu";
-import Avatar from "@mui/material/Avatar";
 import { openModal } from "../../actions/modalActions";
 import { logout } from "../../actions/userActions";
 import Login from "../Login";

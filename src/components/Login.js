@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../actions/userActions";
-import { openModal, closeModal } from "../actions/modalActions";
+import { openModal } from "../actions/modalActions";
 import "./Login.css";
 
 const Login = () => {
