@@ -4,32 +4,34 @@
       "id": 1,
       "name": "Ntebogeng Marobela",
       "email": "officialntebo@gmail.com",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "phone": "1-770-736-8031"
     },
     {
       "id": 2,
       "name": "Champagne Mami",
       "email": "champagnemami@gmail.com",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "phone": "010-692-736-669"
     },
     {
       "email": "bryson@gmail.com",
-      "password": "$2a$10$hzt9wiOV6gLudoXWabaIj.8sRpcPM85TY/YkbjZSlV5lgdC1utfKu",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "id": 3
     },
     {
       "email": "lebone@gmail.com",
-      "password": "$2a$10$yC5YKomphZ/Z5W7Y1RYowOsXcjG6kWKPXb0I/SNxTRV56laBe2hVO",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "id": 4
     },
     {
       "email": "amahle@gmail.com",
-      "password": "$2a$10$rexQGkHg6DhGPbHCbckxHuVhOWw1aGUzzXxPfbzYRUohizL8/RPoa",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "id": 5
     },
     {
       "email": "spuramaluda@gmail.com",
-      "password": "$2a$10$x3hThZxJqxIRZWdsmjJuB.aV3ZcKPwNu9Qnx1V83THWoDLL.EF5gy",
+      "password": "$2a$10$AYsV9Dg.zIDylY9MXcD4.OW/8OZ9wBvANm/5f01I23y417NLojVTO",
       "id": 6
     }
   ],
@@ -44,15 +46,33 @@
   "listings": [
     {
       "id": 1,
+      "img": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3ODM2MDE2Mzc5MjM2MTIxMw%3D%3D/original/bdee6092-0926-48c8-95b7-e260459c0316.jpeg?im_w=720",
+      "title": "Entire rental unit in Cape Town, South Africa",
+      "description": "2 guests · 1 bedroom · 1 bed · 1.5 baths",
       "bath_num": 3,
       "bed_num": 4,
       "zip": 23456,
       "address": "React Street",
       "city": "Dev",
       "street": "Fullstack",
-      "price": 2000,
+      "price": "R7,671.6",
       "email": "officialntebo@gmail.com",
       "userId": 1
+    },
+    {
+      "id": 2,
+      "img":"https://a0.muscache.com/im/pictures/miso/Hosting-941025641566774873/original/b0c1d03b-9435-4452-a30a-15305e691f10.jpeg?im_w=720",
+      "title": "Entire rental unit in Sandton, South Africa",
+      "description": "6 guests · 3 bedrooms 2 beds · 3.5 baths",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 23456,
+      "address": "React Street",
+      "city": "Dev",
+      "street": "Fullstack",
+      "price": "R7,000",
+      "email": "champagnemami@gmail.com",
+      "userId": 2
     }
   ]
 }

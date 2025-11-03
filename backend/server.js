@@ -20,5 +20,13 @@ app.use(rules);
 app.use(router);
 
 app.listen(5000, () => {
-  console.log(" Fake Backend JSON Server running on http://localhost:5000");
+  console.log(`Backend Server running on 
+    
+        Resources
+        http://localhost:5000/users
+        http://localhost:5000/bookings
+        http://localhost:5000/listings
+
+        Home
+        http://localhost:5000`);
 });
