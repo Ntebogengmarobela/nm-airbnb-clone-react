@@ -11,7 +11,13 @@ const Login = () => {
   const dispatch = useDispatch()
 
   const userLogin = useSelector(state => state.userLogin)
-  const {loading, error, userInfo} =userLogin
+  const {loading, error, userInfo} = userLogin;
+  // const [localError, setLocalError] = useState("");
+
+  // useEffect(() => {
+  //   if (error) setLocalError(error);
+  // }, [error]);
+
 
   useEffect(()=>{
     if(userInfo) {
@@ -23,6 +29,7 @@ const Login = () => {
     e.preventDefault()
     dispatch(login(email, password))
   };
+
   return (
     <div className="login_container">
       <h2>Login or Sign up</h2>
