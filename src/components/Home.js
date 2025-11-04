@@ -26,7 +26,7 @@ const Home = () => {
             <h2>Loading...</h2>
           ) : (
             <>
-              <h1>Recently Booked</h1>
+              <h1>Recently Booked:</h1>
               <div className="home_cards">
                 {listings.map((listing, index) => (
                   <Card
